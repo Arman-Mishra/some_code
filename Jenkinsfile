@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('echo') {
       steps {
-        sh 'echo "Hello Individual"'
+        sh 'echo "Hello from the Trigger"'
       }
     }
 
